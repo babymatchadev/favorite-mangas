@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.tile {
+    display: flex;
+    border: 2px #3C79B6 solid;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-family: 'Raleway', 'sans-serif', 'times new roman';
+}
+
+.tile:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+img {
+    height: 275px;
+}
+
+.tile-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
